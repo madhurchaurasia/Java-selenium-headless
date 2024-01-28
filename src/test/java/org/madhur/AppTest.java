@@ -41,6 +41,7 @@ public class AppTest {
         driver.quit();
     }
 
+
     @Test
     public void verifyTitle() {
         //WebDriverManager.chromedriver().setup();

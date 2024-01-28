@@ -17,5 +17,7 @@ public class App {
         WebDriver driver = new ChromeDriver(options);
         driver.get("https://selenium.dev");
         driver.quit();
+
+         System.out.println( "GoodBye!!" );
     }
 }
