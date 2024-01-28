@@ -40,8 +40,6 @@ public class AppTest {
         System.out.println("Screenshot saved: {}" + imageDetails);
         driver.quit();
     }
-
-
     @Test
     public void verifyTitle() {
         //WebDriverManager.chromedriver().setup();
